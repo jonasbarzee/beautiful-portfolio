@@ -1,11 +1,12 @@
 import { ExternalLink, Github } from "lucide-react"
+import project1 from "/projects/project1.png"
 
 const projects = [
     {
         id: 1,
         title: "Chess",
         description: "A full stack chess application, from client to database.",
-        image: "./projects/project1.png",
+        image: project1,
         tags: ["Java", "JavaScript", "MySQL"],
         demoUrl: "#",
         githubUrl: "https://github.com/jonasbarzee/chess"
