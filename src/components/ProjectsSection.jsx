@@ -5,7 +5,7 @@ const projects = [
     {
         id: 1,
         title: "Chess",
-        description: "A full stack chess application, from client to database.",
+        description: "A full stack chess application, from client to database. (in development)",
         image: project1,
         tags: ["Java", "JavaScript", "MySQL"],
         demoUrl: "#",
