@@ -1,33 +1,33 @@
-import { ExternalLink, Github, ArrowRight } from "lucide-react"
+import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
     {
         id: 1,
-        title: "Project 1",
-        description: "My first project.",
-        image: "/projects/project1.png",
-        tags: ["Tag1", "Tag2", "Tag3"],
+        title: "Chess",
+        description: "A full stack chess application, from client to database.",
+        image: "./projects/project1.png",
+        tags: ["Java", "JavaScript", "MySQL"],
         demoUrl: "#",
-        githubUrl: "#"
+        githubUrl: "https://github.com/jonasbarzee/chess"
     },
-    {
-        id: 2,
-        title: "Project 2",
-        description: "My second project.",
-        image: "/projects/project2.png",
-        tags: ["Tag1", "Tag2", "Tag3"],
-        demoUrl: "#",
-        githubUrl: "#"
-    },
-    {
-        id: 3,
-        title: "Project 3",
-        description: "My third project.",
-        image: "/projects/project3.png",
-        tags: ["Tag1", "Tag2", "Tag3"],
-        demoUrl: "#",
-        githubUrl: "#"
-    }
+    // {
+    //     id: 2,
+    //     title: "Project 2",
+    //     description: "My second project.",
+    //     image: "/projects/project2.png",
+    //     tags: ["Tag1", "Tag2", "Tag3"],
+    //     demoUrl: "#",
+    //     githubUrl: "#"
+    // },
+    // {
+    //     id: 3,
+    //     title: "Project 3",
+    //     description: "My third project.",
+    //     image: "/projects/project3.png",
+    //     tags: ["Tag1", "Tag2", "Tag3"],
+    //     demoUrl: "#",
+    //     githubUrl: "#"
+    // }
 ];
 
 export const ProjectsSection = () => {
