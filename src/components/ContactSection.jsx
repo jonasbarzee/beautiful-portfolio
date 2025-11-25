@@ -64,7 +64,7 @@ export const ContactSection = () => {
                                     <MapPin className="h-6 w-6 text-primary" />{" "}
                                 </div>
                                 <div>
-                                    <h4 className="font-medium"> Email</h4>
+                                    <h4 className="font-medium"> Location</h4>
                                     <a className="text-muted-foreground hover:text-primary transition-colors">
                                         Provo, Utah, United States
                                     </a>
